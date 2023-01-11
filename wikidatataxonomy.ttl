@@ -26,7 +26,7 @@
 <http://www.wikidata.org/entity/Q168756> skos:prefLabel "University of California, Berkeley";
     a skos:Concept .
 
-<https://www.wikidata.org/entity/Q20971972 skos:prefLabel "Original Public Ivy";
+<https://www.wikidata.org/entity/Q20971972> skos:prefLabel "Original Public Ivy";
     skos:altLabel "Public Ivy", "Public Ivy School";
     a skos:Concept .
 
