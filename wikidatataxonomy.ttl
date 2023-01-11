@@ -24,14 +24,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<http://www.wikidata.org/entity/Q168756> skos:prefLabel "University of California, Berkeley";
+wd:Q168756 skos:prefLabel "University of California, Berkeley";
     a skos:Concept .
 
-<https://www.wikidata.org/entity/Q20971972> skos:prefLabel "Original Public Ivy";
-    skos:altLabel "Public Ivy", "Public Ivy School";
+wd:Q20971972 skos:prefLabel "Public Ivy School";
+    skos:altLabel "Public Ivy", "Public Ivy School", "Original Public Ivy";
     a skos:Concept .
 
-<https://www.wikidata.org/entity/Q875637> skos:prefLabel "College of William & Mary";
+wd:Q875637 skos:prefLabel "College of William & Mary";
     a skos:Concept.
 wd:Q590643	rdf:type	skos:Concept	.
 wd:Q590643	skos:broader	wd:Q20971972	.
