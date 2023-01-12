@@ -8,6 +8,8 @@ Preparations
 
     Clone this repository
         git clone https://github.com/DataScienceOrdina/techaton-knowledge-graphs
+
+
     Pull Docker image
         docker pull docker.io/jupyter/datascience-notebook:2022-07-11
 
@@ -32,12 +34,13 @@ On Windows
 
 Now follow the link in your terminal to open the Jupyterlab environment. Unfortunately, spaCy, neo4j and wikipedia are not installed by default on the datascience image, so we will have to install it. This can be done by opening a terminal inside the jupyterlab environment and executing:
 
-pip install spacy
-pip install spacy-transformers
-pip install wikipedia
-pip install neo4j 
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_md
+    pip install spacy
+
+    pip install spacy-transformers
+    pip install wikipedia
+    pip install neo4j 
+    python -m spacy download en_core_web_sm
+    python -m spacy download en_core_web_md
 
 Copy the the notebook Techathon Knowledge Graphs 12 January 2023 and give it your (team)name. Make sure you store all your progress in this folder during this assignment.
 
