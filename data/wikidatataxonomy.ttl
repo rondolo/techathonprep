@@ -1,0 +1,55 @@
+##########################################################################
+# SKOS concept scheme on Software Systems (wd:Q2429814), Programming
+# Languages (wd:Q9143) and Data Serialization Formats (wd:Q24451526).
+#
+#  SPARQL query generating this dataset on the Wikidata Query
+#  endpoint (https://query.wikidata.org/)
+#
+#CONSTRUCT {
+#  ?item a skos:Concept;
+#          skos:broader wd:Q20971972;
+#          skos:prefLabel ?itemLabel .
+#}
+#WHERE 
+#{
+#  ?item wdt:P31 wd:Q20971972. # Must be of a Public Ivy
+#  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # Helps get the label in your language, if not, then en language
+#}
+#
+##########################################################################
+
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+wd:Q168756 skos:prefLabel "University of California, Berkeley";
+    a skos:Concept .
+
+wd:Q20971972 skos:prefLabel "Public Ivy School";
+    skos:altLabel "Public Ivy", "Public Ivy School", "Original Public Ivy";
+    a skos:Concept .
+
+wd:Q875637 skos:prefLabel "College of William & Mary";
+    a skos:Concept.
+wd:Q590643	rdf:type	skos:Concept	.
+wd:Q590643	skos:broader	wd:Q20971972	.
+wd:Q590643	skos:prefLabel	"Miami University"	.
+wd:Q168756	rdf:type	skos:Concept	.
+wd:Q168756	skos:broader	wd:Q20971972	.
+wd:Q168756	skos:prefLabel	"University of California, Berkeley"	.
+wd:Q192334	rdf:type	skos:Concept	.
+wd:Q192334	skos:broader	wd:Q20971972	.
+wd:Q192334	skos:prefLabel	"University of North Carolina at Chapel Hill"	.
+wd:Q213439	rdf:type	skos:Concept	.
+wd:Q213439	skos:broader	wd:Q20971972	.
+wd:Q213439	skos:prefLabel	"University of Virginia"	.
+wd:Q875637	rdf:type	skos:Concept	.
+wd:Q875637	skos:broader	wd:Q20971972	.
+wd:Q875637	skos:prefLabel	"College of William & Mary"	.
+wd:Q1048898	rdf:type	skos:Concept	.
+wd:Q1048898	skos:broader	wd:Q20971972	.
+wd:Q1048898	skos:prefLabel	"University of Vermont"	.
+wd:Q49213	rdf:type	skos:Concept	.
+wd:Q49213	skos:broader	wd:Q20971972.
