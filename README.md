@@ -10,10 +10,6 @@ Preparations
         git clone https://github.com/DataScienceOrdina/techaton-knowledge-graphs
 
 
-    Pull Docker image
-        docker pull docker.io/jupyter/datascience-notebook:2022-07-11
-
-
 Next, we will need to get the jupyter/datascience-notebook up and running. If you don't already have it, you can pull the image by running 
 
     podman pull docker.io/jupyter/datascience-notebook
@@ -24,13 +20,13 @@ Now we start the notebook server by running: On MacOS/Linux
 
     podman run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook
     or
-    docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:2022-07-11
+    docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook
 
 On Windows
 
     podman run -it --rm -p 8888:8888 -v ".":/home/jovyan/work jupyter/datascience-notebook
     or
-    docker run -it --rm -p 8888:8888 -v ".":/home/jovyan/work jupyter/datascience-notebook:2022-07-11
+    docker run -it --rm -p 8888:8888 -v ".":/home/jovyan/work jupyter/datascience-notebook
 
 Now follow the link in your terminal to open the Jupyterlab environment. Unfortunately, spaCy, neo4j and wikipedia are not installed by default on the datascience image, so we will have to install it. This can be done by opening a terminal inside the jupyterlab environment and executing:
 
